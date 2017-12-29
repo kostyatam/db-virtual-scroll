@@ -1,0 +1,53 @@
+* {
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  font-sie: 16px
+}
+.list {
+  width: 300px
+  height: 700px
+  border: 1px solid #428bca
+  background-color: rgba(#cacaca, .2)
+  overflow-y: auto
+
+  .wrapper {
+    height: 100%
+    padding: 10px
+    overflow-y: auto
+  }
+
+  &_hidden {
+    visibility: hidden
+  }
+}
+
+.message {
+  border-radius: 5px
+  background-color: #fafafa
+  padding: 10px 5px
+  display: flex
+  margin-bottom: 20px
+
+  .avatar {
+    float: left
+    border-radius: 50%
+    width: 50px
+    height: 50px
+    flex: 0 0 auto
+    margin-right: 10px
+    background-size: cover
+  }
+
+  .user {
+    margin-bottom: 10px
+  }
+
+  .text {
+    
+  }
+}
